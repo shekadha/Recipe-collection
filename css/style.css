@@ -1,0 +1,26 @@
+:root {
+  --font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+}
+.hero {
+  font-family: var(--font-family);
+  background-image: url("/images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 80px 50px;
+}
+.hero p {
+  font-size: 24px;
+}
+
+.description {
+  padding: 0px 450px;
+}
+.desc {
+  margin: 2px;
+}
